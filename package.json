@@ -1,0 +1,44 @@
+{
+  "name": "bot-youtube",
+  "version": "1.0.0",
+  "description": "bot youtube increment visits",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon --exec babel-node ./src/index.js",
+    "start": "npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siturra/bot-youtube.git"
+  },
+  "keywords": [
+    "bot",
+    "youtube",
+    "visitas"
+  ],
+  "author": "sebastian iturra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siturra/bot-youtube/issues"
+  },
+  "homepage": "https://github.com/siturra/bot-youtube#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "playwright": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.8",
+    "@babel/node": "^7.13.0",
+    "@babel/preset-env": "^7.13.8",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "eslint": "^7.20.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "playwright": "^1.9.2"
+  }
+}
