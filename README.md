@@ -13,7 +13,13 @@ Se debe copiar el archivo `.env.example` a `.env`, esto se puede hacer con el si
 
 Luego se debe abrir y modificar el archivo `.env` seteando en la variable URL, la URL que quieres que se repita, por ejemplo:
 
+URL, Es la url que quieres aumentar las visitas.
+VISITS, La cantidad de visitas que quieres realizar.
+VIDEO_TIME, La duración del video.
+
     URL=https://www.youtube.com/watch?v=
+    VISITS=https://www.youtube.com/watch?v=
+    VIDEO_TIME=https://www.youtube.com/watch?v=
 
 ## Ejecución
 Para ejecutar el software basta con ejecutar el siguiente comando:
