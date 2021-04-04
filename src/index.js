@@ -15,6 +15,6 @@ import dotenv from 'dotenv'
     await sleep(1000 * process.env.VIDEO_TIME)
     console.log('restart...')
   }
-  console.log('End.')
   await browser.close()
+  console.log('End.')
 })()
